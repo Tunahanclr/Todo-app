@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { GiCancel } from 'react-icons/gi';
 
 function TodoList({ todos,setTodos }) {
   const handleDelete = (index) => {
